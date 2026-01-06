@@ -424,6 +424,7 @@ span>img {
 }
 
 .footer-btn {
+    border: none;
     padding: 21px 45px;
     border-radius: 60px;
     background: var(--secondary-color);
@@ -442,6 +443,9 @@ span>img {
     font-family: var(--poppins-family);
     color: var(--text-color);
     margin-top: 14px;
+}
+.footer-links>li>a:hover{
+    color: var(--secondary-color);
 }
 
 .footer-icon>a {
@@ -467,6 +471,10 @@ span>img {
     color: var(--secondary-color);
     background: var(--primary-color);
     border: 1px solid black;
+}
+.footer-icon>a:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
 }
 
 @media screen and (max-width:1301px) {
